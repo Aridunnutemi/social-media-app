@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    background-color: chartreuse;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("./mgback.jpg");
+    background-size: cover;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.down{
+    height: 5vh;
+    display: flex;
+    background-color: floralwhite;
+    justify-content: center;
+}
+

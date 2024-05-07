@@ -1,0 +1,25 @@
+section{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    align-content: space-between;
+    gap: 5px;
+    height: 300px;
+    margin: 20px;
+    padding: 5px;
+}
+
+div{
+    background-color: blue;
+    padding: 20px;
+    border: 1px solid red;
+    height: 70px;
+}
+
+div.grid-item1{
+    background-color:;
+    padding: 20px;
+    border: 1px solid red;
+    height: 50px;
+    grid-row: 1/3;
+}
